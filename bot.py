@@ -29,7 +29,7 @@ async def help(bot, message):
     await message.reply(
         f"**This is our Help Page {message.chat.first_name}!**\n\n"
         "**Just Simply send Any Lisk**\n\n"
-        "if PDISK Site Says **The File is not Available Now** Click The Link again in few minutes\n"
+        "if PDISK Site Says **'The File is not Available Now'** Click The Link again in few minutes\n"
         "[Because PDISK Takes few Minute to Upload your video]")
 
 @bot.on_message(filters.private)
