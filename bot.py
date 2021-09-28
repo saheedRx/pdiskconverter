@@ -28,9 +28,8 @@ async def start(bot, message):
 async def help(bot, message):
     await message.reply(
         f"**This is our Help Page {message.chat.first_name}!**\n\n"
-        "**Just Simply send Any Pdisk Link in Any Format**\n -Shortend Url\n -Cofile url\n\n __Both url are accepted__ \n\n"
-        "**Demo Of Urls**\n **Bit.ly Shortened Url**\n https://bit.ly/****** \n\n **Pdisk Official Shorten Link** \n https://kofilink.com/1/***********?dn=3 \n\n"
-        "**Long Url** - https://www.cofilink.com/share-video?videoid=*******")
+        "**Just Simply send Any Lisk**"
+        "if PDISK Site Says **The File is not Available Now** Click The Link again in few minutes Because PDISK Takes few Minute to Upload your video")
 
 @bot.on_message(filters.private)
 async def link_handler(bot, message):
