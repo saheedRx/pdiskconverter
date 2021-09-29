@@ -22,7 +22,7 @@ bot = Client('pdiskshortner bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Pdisk link converter bot.\n Just send me link and get converted link of pdisk. \n Press 👉 /help 👈 for More. \n\n Created By @Tamil_Rulzz")
+        "I'm Pdisk link converter bot.\nJust send me link and get converted link of pdisk. \n\nPress 👉 /help 👈 for More. \n\n\n Created By @Tamil_Rulzz")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def help(bot, message):
